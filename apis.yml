@@ -1,8 +1,23 @@
 aid: the-business-of-fashion
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-business-of-fashion.png
 name: The Business of Fashion
-description: 'The Business of Fashion is a company surfaced as a portfolio company of index-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: media. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'The Business of Fashion (BoF) is an authoritative digital media and intelligence company
+  founded by Imran Amed in 2007, serving the global fashion and luxury industry. It publishes news,
+  analysis, case studies and industry data, and operates subscription products including BoF Professional
+  membership, BoF Insights research reports, events and online courses. Backed by Index Ventures. BoF
+  publishes no public developer API; this profile captures the company''s public web, subscription and
+  legal surface plus a domain-security probe.'
 url: https://raw.githubusercontent.com/api-evangelist/the-business-of-fashion/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Media
+- Fashion
+- Publishing
+- News
+- Intelligence
+- Luxury
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +43,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/the-business-of-fashion-domain-security.yml
 - type: Website
-  url: http://businessoffashion.com
+  url: https://www.businessoffashion.com
+- type: Blog
+  url: https://www.businessoffashion.com/
+- type: Pricing
+  url: https://www.businessoffashion.com/subscriptions/packages/
+- type: SignUp
+  url: https://www.businessoffashion.com/subscriptions/packages/
+- type: Support
+  url: https://www.businessoffashion.com/subscriptions/faq/
+- type: TermsOfService
+  url: https://www.businessoffashion.com/legal/
+- type: PrivacyPolicy
+  url: https://cdn.businessoffashion.com/privacy-policy/05-02-2025_BoF_Privacy_Policy.pdf
+- type: GitHubOrganization
+  url: https://github.com/business-of-fashion
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

@@ -1,0 +1,21 @@
+{
+  "repo": "the-business-of-fashion",
+  "feeds": [
+    {
+      "source": "https://www.businessoffashion.com/arc/outboundfeeds/rss/",
+      "feed_url": "https://www.businessoffashion.com/arc/outboundfeeds/rss/",
+      "title": "",
+      "saved": 10,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.businessoffashion.com",
+      "feed_url": "https://www.businessoffashion.com/arc/outboundfeeds/rss/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 105,
+  "fetched": "2026-08-01T15:49:00Z"
+}
