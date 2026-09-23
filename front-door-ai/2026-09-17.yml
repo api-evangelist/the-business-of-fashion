@@ -1,0 +1,26 @@
+# Front Door AI Index — the-business-of-fashion — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: the-business-of-fashion
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.businessoffashion.com
+  final_host: www.businessoffashion.com
+  ownership: own
+  owner: the-business-of-fashion
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 5
+  host_score: 5
+  density: 2.18
+  words: 2293
+  tiers:
+    agentic: 0
+    core: 5
+    model: 0
+  ambiguous: 3
+  top_terms:
+    AI: 5
+    intelligence: 3
