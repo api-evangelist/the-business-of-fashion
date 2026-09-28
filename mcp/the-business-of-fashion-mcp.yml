@@ -16,8 +16,13 @@ deployment:
 tools_count: 2
 tools:
 - name: search_articles
-  description: ''
+  description: Semantic search over the Business of Fashion article archive. Returns the most relevant
+    articles with an excerpt of the passage that matched. Use natural-language queries — this is vector
+    search, not keyword search — and narrow with the met
 - name: get_article
-  description: ''
+  description: Fetch the full text and metadata of one article, reassembled from its indexed chunks. Identify
+    it by `story_id` (returned by search_articles) or by its canonical `url`.
 tools_source: live tools/list via initialize handshake, 2026-09-12 (signals/audit_mcp_authorship.py --probe)
 authorship: provider
+descriptions_source: live tools/list (authorship probe or saved capture); filled by backfill-tools-from-authorship.py
+  --descriptions, 2026-09-28
