@@ -45,8 +45,8 @@ tags:
 - Fashion
 - Publishing
 - News
-- Intelligence
 - Luxury
+- Market Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -77,3 +77,5 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-tags-removed:
+- Intelligence
